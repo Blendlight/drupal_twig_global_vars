@@ -1,0 +1,18 @@
+<?php
+use Drupal\twig_custom_variables\TwigCustomVariables;
+
+function twigCustomVarGet($varName, $defaultValue=null)
+{
+    return TwigCustomVariables::getVar($varName, $defaultValue);
+}
+
+
+function twigCustomVarSet($varName, $value)
+{
+    TwigCustomVariables::setVar($varName, $value);
+}
+
+function twigCustomVarGetAll()
+{
+    return TwigCustomVariables::getAll();
+}

@@ -1,0 +1,5 @@
+name: 'Twig Custom Variables'
+type: module
+description: 'Module to add ability to pass twig variables from any controller hook etc.'
+core: 8.x
+package: 'Custom'

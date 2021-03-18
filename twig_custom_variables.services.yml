@@ -1,0 +1,6 @@
+services:
+  twig_custom_variables.twig.extension:
+    class: Drupal\twig_custom_variables\TwigExtension\DefaultTwigExtension
+    arguments: []
+    tags:
+      - { name: twig.extension }
